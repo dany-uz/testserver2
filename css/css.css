@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #A8C7D6 ;
+}
+
+nav {
+    background: #A8C7D6;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > img {
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav > a > img {
+    width: 35px;
+    position: relative;
+    align-items: center;
+}
+
+nav > a {
+    height: 75px;
+    text-decoration: none;
+    color: white;
+    margin: 0 0;
+    padding: 5px;
+    text-align: center;
+}
